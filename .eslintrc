@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "@antfu",
+    "@unocss"
+  ],
+  "ignorePatterns": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.vsix",
+    "**/*.sh",
+    "**/*.svg",
+    "**/*.yml",
+    "**/*.html",
+    "**/*.json",
+    "**/*.py",
+    "**/*.xlsx",
+    "src/jq/*.js"
+  ],
+  "rules": {
+    "no-console": "off",
+    "prefer-const": 1,
+    "no-void": "off",
+    "no-new":"off",
+    "eqeqeq":"off",
+    "vue/eqeqeq":"off",
+    "no-invalid-this":"off"
+  }
+}
